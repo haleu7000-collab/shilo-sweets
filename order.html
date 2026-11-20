@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Place your custom cake order at Shilo Sweets.">
+    <link rel="icon" href="images/logo.jpg">
+    <title>Custom Order | Shilo Sweets</title>
+</head>
+
+<body>
+
+    <header>
+        
+    <table>
+        <tr>
+            <td><img src="images/logo.jpg" width="60" alt="logo"></td>
+            <td><h1>Shilo Sweets</h1></td>
+        </tr>
+    </table>
+
+        <p>Let's make your sweetest ideas come true!</p>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cakes.html">Our Cakes</a>
+            <a href="order.html">Custom Order</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Place Your Custom Cake Order</h2>
+            <p>
+                Every celebration deserves something special.
+                At Shilo Sweets, you can choose your favorite flavor,
+                size, colors and decorations. Tell us your ideas,
+                and we will do our best to bring your dream cake to life!
+            </p>
+
+            <h2>How to Order</h2>
+            <ol>
+                <li>Fill in your personal information.</li>
+                <li>Choose your preferred cake flavor and size.</li>
+                <li>Describe your cake design.</li>
+                <li>Submit your order details.</li>
+            </ol>
+
+            <h2>Available Cake Flavors</h2>
+            <ul>
+                <li>Chocolate</li>
+                <li>Vanilla</li>
+                <li>Red Velvet</li>
+                <li>Strawberry</li>
+                <li></li>
+                <li>opera</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Customer Information</h2>
+
+            <form action="#" method="post" enctype="multipart/form-data">
+
+                <fieldset>
+                    <legend>Personal Details</legend>
+
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+
+                    <label for="password">Create Password:</label>
+                    <input type="password" id="password" name="password">
+                    <br><br>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                    <br><br>
+
+                    <label for="age">Your Age:</label>
+                    <input type="number" id="age" name="age" min="1" max="100">
+                    <br><br>
+
+                    <label for="date">Delivery Date:</label>
+                    <input type="date" id="date" name="date" required>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Cake Preferences</legend>
+
+                    <p>Choose Your Cake Flavor:</p>
+
+                    <input type="radio" id="chocolate" name="flavor" value="Chocolate">
+                    <label for="chocolate">Chocolate</label><br>
+
+                    <input type="radio" id="vanilla" name="flavor" value="Vanilla">
+                    <label for="vanilla">Vanilla</label><br>
+
+                    <input type="radio" id="redvelvet" name="flavor" value="Red Velvet">
+                    <label for="redvelvet">Red Velvet</label><br>
+
+                    <input type="radio" id="strawberry" name="flavor" value="Strawberry">
+                    <label for="strawberry">Strawberry</label>
+
+                    <p>Choose Your Cake Size:</p>
+
+                    <input type="radio" id="one" name="size" value="1kg">
+                    <label for="one">1 kg</label><br>
+
+                    <input type="radio" id="two" name="size" value="2kg">
+                    <label for="two">2 kg</label><br>
+
+                    <input type="radio" id="three" name="size" value="3kg">
+                    <label for="three">3 kg</label><br>
+
+                    <p>Choose Your Decorations:</p>
+
+                    <input type="checkbox" id="flowers" name="decoration" value="Flowers">
+                    <label for="flowers">Flowers</label><br>
+
+                    <input type="checkbox" id="pearls" name="decoration" value="Pearls">
+                    <label for="pearls">Pearls</label><br>
+
+                    <input type="checkbox" id="fruits" name="decoration" value="Fruits">
+                    <label for="fruits">Fresh Fruits</label><br>
+
+                    <input type="checkbox" id="chocolate" name="decoration" value="Chocolate">
+                    <label for="chocolate">Chocolate Decorations</label><br><br>
+
+                    <label for="picture">Upload Cake Reference Picture:</label>
+                    <input type="file" id="picture" name="picture" accept="image/*">
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Additional Information</legend>
+
+                    <label for="description">Describe Your Dream Cake:</label>
+                    <br>
+                    <textarea id="description" name="description"
+                        rows="8" cols="45" maxlength="500"
+                        placeholder="Describe your preferred design, colors, decorations, writing on the cake and any special requests..."></textarea>
+                </fieldset>
+
+                <br>
+
+                <input type="submit" value="Submit Order">
+                <input type="reset" value="Clear Form">
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p>Contact us:
+            <a href="mailto:your-email@example.com">Send us an email</a>
+        </p>
+        <p>&copy; 2026 Shilo Sweets. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
